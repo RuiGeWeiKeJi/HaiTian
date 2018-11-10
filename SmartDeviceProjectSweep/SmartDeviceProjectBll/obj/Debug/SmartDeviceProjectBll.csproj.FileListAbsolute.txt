@@ -1,0 +1,10 @@
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectBll\obj\Debug\ResolveAssemblyReference.cache
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectBll\bin\Debug\SmartDeviceProjectBll.dll
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectBll\bin\Debug\SmartDeviceProjectBll.pdb
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectBll\bin\Debug\System.Data.SqlClient.dll
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectBll\bin\Debug\Utility.dll
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectBll\bin\Debug\Utility.pdb
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectBll\obj\Debug\SmartDeviceProjectBll.dll
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectBll\obj\Debug\SmartDeviceProjectBll.pdb
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectBll\bin\Debug\SmartDeviceProjectEntity.dll
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectBll\bin\Debug\SmartDeviceProjectEntity.pdb

@@ -1,0 +1,5 @@
+D:\Project data\HuaDaHaiTianJianMing\Sweep\SweepEntity\bin\Debug\SweepEntity.dll
+D:\Project data\HuaDaHaiTianJianMing\Sweep\SweepEntity\bin\Debug\SweepEntity.pdb
+D:\Project data\HuaDaHaiTianJianMing\Sweep\SweepEntity\obj\Debug\SweepEntity.csprojResolveAssemblyReference.cache
+D:\Project data\HuaDaHaiTianJianMing\Sweep\SweepEntity\obj\Debug\SweepEntity.dll
+D:\Project data\HuaDaHaiTianJianMing\Sweep\SweepEntity\obj\Debug\SweepEntity.pdb

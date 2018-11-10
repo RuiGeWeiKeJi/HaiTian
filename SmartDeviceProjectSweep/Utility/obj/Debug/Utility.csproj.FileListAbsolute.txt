@@ -1,0 +1,5 @@
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\Utility\bin\Debug\Utility.dll
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\Utility\bin\Debug\Utility.pdb
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\Utility\obj\Debug\ResolveAssemblyReference.cache
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\Utility\obj\Debug\Utility.dll
+D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\Utility\obj\Debug\Utility.pdb

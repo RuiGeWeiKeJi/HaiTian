@@ -1,0 +1,5 @@
+D:\Project data\HuaDaHaiTianJianMing\Sweep\SweepBll\bin\Debug\SweepBll.dll
+D:\Project data\HuaDaHaiTianJianMing\Sweep\SweepBll\bin\Debug\SweepBll.pdb
+D:\Project data\HuaDaHaiTianJianMing\Sweep\SweepBll\obj\Debug\SweepBll.dll
+D:\Project data\HuaDaHaiTianJianMing\Sweep\SweepBll\obj\Debug\SweepBll.pdb
+D:\Project data\HuaDaHaiTianJianMing\Sweep\SweepBll\obj\Debug\SweepBll.csprojResolveAssemblyReference.cache

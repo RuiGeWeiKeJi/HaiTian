@@ -1,0 +1,5 @@
+D:\Project data\HuaDaHaiTianJianMing\barCode\barCodeEntity\bin\Debug\barCodeEntity.dll
+D:\Project data\HuaDaHaiTianJianMing\barCode\barCodeEntity\bin\Debug\barCodeEntity.pdb
+D:\Project data\HuaDaHaiTianJianMing\barCode\barCodeEntity\obj\Debug\barCodeEntity.dll
+D:\Project data\HuaDaHaiTianJianMing\barCode\barCodeEntity\obj\Debug\barCodeEntity.pdb
+D:\Project data\HuaDaHaiTianJianMing\barCode\barCodeEntity\obj\Debug\barCodeEntity.csprojResolveAssemblyReference.cache

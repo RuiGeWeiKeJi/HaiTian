@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="04/28/2017 10:42:00" ReportInfo.Modified="10/16/2017 13:21:28" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuA+aqVRl/nMVIPNG1vbM624LJE3kWqiOcuydPx9zIVayQ==">
+      <TableDataSource Name="Table" Alias="Code" DataType="System.Int32" Enabled="true" SelectCommand="SELECT BAR002,BAR003,BAR004,BAR005,BAR018,BAR008,&#13;&#10;CONVERT(VARCHAR,CONVERT(INT,SUBSTRING(CONVERT(VARCHAR,YEAR(GETDATE())),3,2))+50)+&#13;&#10;CONVERT(VARCHAR,MONTH(GETDATE())+50)+&#13;&#10;RIGHT('0'+CONVERT(VARCHAR,DAY(GETDATE())),2) DT FROM HDTBAR">
+        <Column Name="BAR002" DataType="System.String"/>
+        <Column Name="BAR003" DataType="System.String"/>
+        <Column Name="BAR004" DataType="System.String"/>
+        <Column Name="BAR005" DataType="System.String"/>
+        <Column Name="BAR008" DataType="System.String"/>
+        <Column Name="BAR018" DataType="System.String"/>
+        <Column Name="DT" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="100" PaperHeight="70" LeftMargin="1" TopMargin="2" RightMargin="1" BottomMargin="2">
+    <DataBand Name="Data1" Width="370.44" Height="245.7" DataSource="Table">
+      <BarcodeObject Name="Barcode1" Left="39.5" Top="103.95" Width="126.25" Height="56.7" DataColumn="Code.BAR018" Text="201706090001" Barcode="Code128" Barcode.AutoEncode="true"/>
+      <TextObject Name="Text11" Left="94.5" Top="47.25" Width="56.7" Height="28.35" Text="Num:" HorzAlign="Right" VertAlign="Center" Font="宋体, 14pt, style=Bold"/>
+      <TextObject Name="Text12" Left="151.2" Top="47.25" Width="141.75" Height="28.35" Text="[Code.DT]" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+    </DataBand>
+  </ReportPage>
+</Report>
