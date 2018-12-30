@@ -19,12 +19,12 @@ namespace SmartDeviceProjectSweep
 
             _bll = new SmartDeviceProjectBll.Bll.ConnecBll();
 
-            this.textBox3.Select(0, 0);
+            this.textBox3.Focus();
             
-            comboBox1.DataSource = _bll.GetDataTableLotId();
-            comboBox1.DisplayMember = "BAR007";
-            comboBox1.SelectedIndex = -1;
-            
+            //comboBox1.DataSource = _bll.GetDataTableLotId();
+            //comboBox1.DisplayMember = "BAR007";
+            //comboBox1.SelectedIndex = -1;
+
             comboBox2.DataSource = _bll.GetDataTableOfOrder();
             comboBox2.DisplayMember = "IBB001";
             comboBox2.SelectedIndex = -1;
@@ -34,21 +34,27 @@ namespace SmartDeviceProjectSweep
         
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            if (this.textBox3.Text.Length >= 13)
+            //if (this.textBox3.Text.Length >= 13)
+            //{
+
+            //    comboBox1.Text = _bll.zh(textBox3.Text);
+           
+
+            //    this.textBox2.Select(0, 0);
+
+            //    DataTable dt = _bll.GetDataTableLotId(textBox3.Text);
+            //    if (dt != null && dt.Rows.Count > 0)
+            //    {
+            //        textBox1.Text = dt.Rows[0]["BAR008"].ToString();
+            //    }
+            //}
+        }
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
             {
-                //if (textBox3.Text.Contains("-"))
-                //{
-                //    string[] str = textBox3.Text.Split('-');
-                //    string s = str[str.Length - 1];
-
-                //    if (s.Length >= 13)
-                //    {
                 comboBox1.Text = _bll.zh(textBox3.Text);
-                //    }
-                //}
-
                 this.textBox2.Select(0, 0);
-
                 DataTable dt = _bll.GetDataTableLotId(textBox3.Text);
                 if (dt != null && dt.Rows.Count > 0)
                 {
@@ -56,15 +62,16 @@ namespace SmartDeviceProjectSweep
                 }
             }
         }
-
         private void comboBox1_TextChanged(object sender, EventArgs e)
         {
+            //规格
             comboBox3.DataSource = _bll.lotidDt(comboBox1.Text);
             comboBox3.DisplayMember = "BAR004";
         }
 
         private void comboBox3_TextChanged(object sender, EventArgs e)
         {
+            //lotid
             textBox1.Text = _bll.lotidDt(comboBox1.Text, comboBox3.Text);
         }
 
@@ -172,6 +179,8 @@ namespace SmartDeviceProjectSweep
                 return comboBox2.Text;
             }
         }
+
+    
 
 
     }

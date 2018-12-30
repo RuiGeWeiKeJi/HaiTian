@@ -31,3 +31,36 @@ D:\Project data\HuaDaHaiTianJianMing\barCode\barCode\bin\Debug\ConnectionBll.pdb
 D:\Project data\HuaDaHaiTianJianMing\barCode\barCode\obj\Debug\barCode.FormBatchEdit.resources
 D:\Project data\HuaDaHaiTianJianMing\barCode\barCode\obj\Debug\barCode.FormLibrary.resources
 D:\Project data\HuaDaHaiTianJianMing\barCode\barCode\obj\Debug\RegistrationCode.RegisterForm.resources
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\barCode.exe.config
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.exe
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.pdb
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\barCodeDao.dll
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\barCodeEntity.dll
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\Connection.dll
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\Utility.dll
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\ConnectionBll.dll
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\EnvDTE.dll
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\stdole.dll
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\Microsoft.MSXML.dll
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\barCodeDao.pdb
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\barCodeEntity.pdb
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\Connection.pdb
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\Utility.pdb
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\ConnectionBll.pdb
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\EnvDTE.xml
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.csprojResolveAssemblyReference.cache
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.BarCodeReport.resources
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.CheckProduct.resources
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.FormBase.resources
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.FormBatchEdit.resources
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.FormChild.resources
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.FormEdit.resources
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.FormLibrary.resources
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.FormPrintBarCode.resources
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.ProductChoise.resources
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.Properties.Resources.resources
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\RegistrationCode.RegisterForm.resources
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\obj\Debug\barCode.csproj.GenerateResource.Cache
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\barCode.exe
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCode\bin\Debug\barCode.pdb

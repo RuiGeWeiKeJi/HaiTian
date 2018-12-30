@@ -26,3 +26,31 @@ D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectS
 D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectSweep\bin\Debug\SmartDeviceProjectEntity.dll
 D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectSweep\bin\Debug\SmartDeviceProjectEntity.pdb
 D:\Project data\HuaDaHaiTianJianMing\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.Form3.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\bin\Debug\SmartDeviceProjectSweep.exe
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\bin\Debug\SmartDeviceProjectSweep.pdb
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\bin\Debug\SmartDeviceProjectBll.dll
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\bin\Debug\SmartDeviceProjectEntity.dll
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\bin\Debug\SmartDeviceProjectBll.pdb
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\bin\Debug\SmartDeviceProjectEntity.pdb
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.Form1.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.Form2.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.Form3.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.FormConnection.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.FormOrder.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.FormReport.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.FormReportQuery.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.FormStorageType.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.Properties.Resources.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.UserControlBatch.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.UserControlButton.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.UserControlLotID.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.UserControlOrder.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.UserControlReport.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.UserControTable.resources
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.exe
+C:\Users\Administrator\Desktop\SmartDeviceProjectSweep\SmartDeviceProjectSweep\obj\Debug\SmartDeviceProjectSweep.pdb

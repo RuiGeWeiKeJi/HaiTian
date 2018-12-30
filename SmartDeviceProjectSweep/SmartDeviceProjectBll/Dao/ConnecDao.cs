@@ -316,7 +316,7 @@ namespace SmartDeviceProjectBll.Dao
         public DataTable GetDataTableOfOrder()
         {
             StringBuilder strSql = new StringBuilder();
-            strSql.Append("SELECT DISTINCT IBB001 FROM DCSIBB WHERE IBB015='N' ORDER BY IBB001 DESC");
+            strSql.Append("SELECT DISTINCT IBB001 FROM DCSIBB WHERE IBB015='N' AND IBB023='T' ORDER BY IBB001 DESC");
 
             return SqlHelper.ExecuteDataTable(strSql.ToString());
         }
