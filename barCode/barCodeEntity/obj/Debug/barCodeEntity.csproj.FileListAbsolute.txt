@@ -3,3 +3,8 @@ D:\Project data\HuaDaHaiTianJianMing\barCode\barCodeEntity\bin\Debug\barCodeEnti
 D:\Project data\HuaDaHaiTianJianMing\barCode\barCodeEntity\obj\Debug\barCodeEntity.dll
 D:\Project data\HuaDaHaiTianJianMing\barCode\barCodeEntity\obj\Debug\barCodeEntity.pdb
 D:\Project data\HuaDaHaiTianJianMing\barCode\barCodeEntity\obj\Debug\barCodeEntity.csprojResolveAssemblyReference.cache
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCodeEntity\bin\Debug\barCodeEntity.dll
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCodeEntity\bin\Debug\barCodeEntity.pdb
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCodeEntity\obj\Debug\barCodeEntity.csprojResolveAssemblyReference.cache
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCodeEntity\obj\Debug\barCodeEntity.dll
+D:\ProjectData\HuaDaHaiTianJianMing\HaiTian\barCode\barCodeEntity\obj\Debug\barCodeEntity.pdb

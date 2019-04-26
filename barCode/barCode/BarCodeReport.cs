@@ -179,7 +179,7 @@ namespace barCode
                 return 0;
             }
 
-            FormEdit form = new FormEdit ( _model . BAR009 ,_model . BAR017 ,_model . BAR016 ,_model . BAR020 . ToString ( ) ,_model . BAR019 . ToString ( ) ,_model . BAR024 ,_model . BAR025 );
+            FormEdit form = new FormEdit (_model );
             form . id = _model . idx;
             form . StartPosition = FormStartPosition . CenterScreen;
             DialogResult result = form . ShowDialog ( );
@@ -277,8 +277,11 @@ namespace barCode
                 return;
 
             _model . idx = string . IsNullOrEmpty ( row [ "idx" ] . ToString ( ) ) == true ? 0 : Convert . ToInt32 ( row [ "idx" ] . ToString ( ) );
-            _model . BAR009 = row [ "BAR009" ] . ToString ( );
-            _model . BAR016 = row [ "BAR016" ] . ToString ( );
+            _model . BAR011 = row["BAR011"] . ToString ( );
+            _model . BAR001 = row["BAR001"] . ToString ( );
+            _model . BAR007 = row["BAR007"] . ToString ( );
+            _model . BAR009 = row["BAR009"] . ToString ( );
+            _model . BAR016 = row["BAR016"] . ToString ( );
             _model . BAR017 = row [ "BAR017" ] . ToString ( );
             _model . BAR019 = string . IsNullOrEmpty ( row [ "BAR019" ] . ToString ( ) ) == true ? 0 : Convert . ToInt32 ( row [ "BAR019" ] . ToString ( ) );
             _model . BAR020 = string . IsNullOrEmpty ( row [ "BAR020" ] . ToString ( ) ) == true ? 0 : Convert . ToInt32 ( row [ "BAR020" ] . ToString ( ) );

@@ -76,9 +76,9 @@ namespace barCodeDao . Bll
         /// <param name="stateOfStorage">入库</param>
         /// <param name="remark">备注</param>
         /// <returns></returns>
-        public bool Edit ( int  idxList  ,string remark ,string orderNum     ,string saoMiao ,string rkNum,string ckNum ,string dt,string batchS)
+        public bool Edit ( barCodeEntity . barCodeReportEntity _model )
         {
-            return _dao . Edit ( idxList ,remark ,orderNum ,saoMiao ,rkNum ,ckNum ,dt ,batchS );
+            return _dao . Edit ( _model );
         }
 
         /// <summary>

@@ -74,6 +74,7 @@
             this.BAR025 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.cmbLB = new DevExpress.XtraEditors.Repository.RepositoryItemComboBox();
             this.lupLB = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
+            this.BAR011 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -312,7 +313,8 @@
             this.BAR4,
             this.BAR5,
             this.BAR022,
-            this.BAR025});
+            this.BAR025,
+            this.BAR011});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ColumnAutoWidth = false;
@@ -463,7 +465,7 @@
             this.BAR0.OptionsColumn.AllowEdit = false;
             this.BAR0.ToolTip = "[入库数量]*[规格]";
             this.BAR0.Visible = true;
-            this.BAR0.VisibleIndex = 17;
+            this.BAR0.VisibleIndex = 18;
             this.BAR0.Width = 90;
             // 
             // BAR3
@@ -480,7 +482,7 @@
             this.BAR3.OptionsColumn.AllowEdit = false;
             this.BAR3.ToolTip = "[出库数量]*[规格]";
             this.BAR3.Visible = true;
-            this.BAR3.VisibleIndex = 14;
+            this.BAR3.VisibleIndex = 15;
             this.BAR3.Width = 84;
             // 
             // BAR1
@@ -545,7 +547,7 @@
             this.BAR016.Name = "BAR016";
             this.BAR016.OptionsColumn.AllowEdit = false;
             this.BAR016.Visible = true;
-            this.BAR016.VisibleIndex = 20;
+            this.BAR016.VisibleIndex = 21;
             // 
             // BAR017
             // 
@@ -558,7 +560,7 @@
             this.BAR017.Name = "BAR017";
             this.BAR017.OptionsColumn.AllowEdit = false;
             this.BAR017.Visible = true;
-            this.BAR017.VisibleIndex = 21;
+            this.BAR017.VisibleIndex = 22;
             // 
             // 编号
             // 
@@ -596,7 +598,7 @@
             this.BAR019.Name = "BAR019";
             this.BAR019.OptionsColumn.AllowEdit = false;
             this.BAR019.Visible = true;
-            this.BAR019.VisibleIndex = 16;
+            this.BAR019.VisibleIndex = 17;
             // 
             // BAR023
             // 
@@ -608,7 +610,7 @@
             this.BAR023.FieldName = "BAR023";
             this.BAR023.Name = "BAR023";
             this.BAR023.Visible = true;
-            this.BAR023.VisibleIndex = 15;
+            this.BAR023.VisibleIndex = 16;
             this.BAR023.Width = 104;
             // 
             // BAR020
@@ -622,7 +624,7 @@
             this.BAR020.Name = "BAR020";
             this.BAR020.OptionsColumn.AllowEdit = false;
             this.BAR020.Visible = true;
-            this.BAR020.VisibleIndex = 13;
+            this.BAR020.VisibleIndex = 14;
             // 
             // BAR4
             // 
@@ -638,7 +640,7 @@
             this.BAR4.UnboundExpression = "[BAR019] - [BAR020]";
             this.BAR4.UnboundType = DevExpress.Data.UnboundColumnType.Integer;
             this.BAR4.Visible = true;
-            this.BAR4.VisibleIndex = 18;
+            this.BAR4.VisibleIndex = 19;
             // 
             // BAR5
             // 
@@ -656,7 +658,7 @@
             this.BAR5.UnboundExpression = "[BAR0] - [BAR3]";
             this.BAR5.UnboundType = DevExpress.Data.UnboundColumnType.Decimal;
             this.BAR5.Visible = true;
-            this.BAR5.VisibleIndex = 19;
+            this.BAR5.VisibleIndex = 20;
             this.BAR5.Width = 83;
             // 
             // BAR022
@@ -670,7 +672,7 @@
             this.BAR022.Name = "BAR022";
             this.BAR022.OptionsColumn.AllowEdit = false;
             this.BAR022.Visible = true;
-            this.BAR022.VisibleIndex = 22;
+            this.BAR022.VisibleIndex = 23;
             // 
             // BAR025
             // 
@@ -705,6 +707,18 @@
             this.lupLB.Name = "lupLB";
             this.lupLB.NullText = "";
             this.lupLB.PopupWidth = 200;
+            // 
+            // BAR011
+            // 
+            this.BAR011.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold);
+            this.BAR011.AppearanceCell.Options.UseFont = true;
+            this.BAR011.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold);
+            this.BAR011.AppearanceHeader.Options.UseFont = true;
+            this.BAR011.Caption = "入库单号";
+            this.BAR011.FieldName = "BAR011";
+            this.BAR011.Name = "BAR011";
+            this.BAR011.Visible = true;
+            this.BAR011.VisibleIndex = 13;
             // 
             // BarCodeReport
             // 
@@ -779,5 +793,6 @@
         private DevExpress . XtraEditors . Repository . RepositoryItemComboBox cmbLB;
         private DevExpress . XtraEditors . Repository . RepositoryItemLookUpEdit lupLB;
         private DevExpress . XtraGrid . Columns . GridColumn BAR025;
+        private DevExpress . XtraGrid . Columns . GridColumn BAR011;
     }
 }

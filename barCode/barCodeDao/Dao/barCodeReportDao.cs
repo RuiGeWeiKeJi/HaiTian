@@ -36,7 +36,7 @@ namespace barCodeDao . Dao
         public DataTable GetDataTable ( string strWhere )
         {
             StringBuilder strSql = new StringBuilder ( );
-            strSql . Append ( "SELECT A.idx,BAR001,BAR002,BAR003,BAR004,BAR005,BAR006,BAR007,BAR008,BAR009,BAR016,BAR017,BAR018,BAR019,BAR020,BAR022,BAR023,BAR024,BAR025,0.00 BAR0,0.00 BAR3,DEA980 FROM HDTBAR A LEFT JOIN TPADEA B ON A.BAR001=B.DEA001 " );
+            strSql . Append ( "SELECT A.idx,BAR001,BAR002,BAR003,BAR004,BAR005,BAR006,BAR007,BAR008,BAR009,BAR011,BAR016,BAR017,BAR018,BAR019,BAR020,BAR022,BAR023,BAR024,BAR025,0.00 BAR0,0.00 BAR3,DEA980 FROM HDTBAR A LEFT JOIN TPADEA B ON A.BAR001=B.DEA001 " );
             strSql . Append ( "WHERE " + strWhere );
 
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
@@ -120,8 +120,9 @@ namespace barCodeDao . Dao
         /// <param name="stateOfStorage">入库</param>
         /// <param name="remark">备注</param>
         /// <returns></returns>
-        public bool Edit ( int idxList ,string remark ,string orderNum ,string saoMiao ,string rkNum ,string ckNum ,string dt ,string batchS )
+        public bool Edit ( barCodeEntity . barCodeReportEntity _model )
         {
+            Hashtable SQLString = new Hashtable ( );
             StringBuilder strSql = new StringBuilder ( );
             strSql . Append ( "UPDATE HDTBAR SET " );
             strSql . Append ( "BAR016=@BAR016," );
@@ -142,23 +143,44 @@ namespace barCodeDao . Dao
                 new SqlParameter("@BAR025",SqlDbType.NVarChar,255),
                 new SqlParameter("@idx",SqlDbType.Int)
             };
-            parameter [ 0 ] . Value = remark;
-            parameter [ 1 ] . Value = orderNum;
-            parameter [ 2 ] . Value = saoMiao;
-            parameter [ 3 ] . Value = Convert . ToInt32 ( rkNum );
-            parameter [ 4 ] . Value = Convert . ToInt32 ( ckNum );
-            if ( string . IsNullOrEmpty ( dt ) )
-                parameter [ 5 ] . Value = DBNull . Value;
-            else
-                parameter [ 5 ] . Value = Convert . ToDateTime ( dt );
-            parameter [ 6 ] . Value = batchS;
-            parameter [ 7 ] . Value = idxList;
+            parameter[0] . Value = _model . BAR017;
+            parameter[1] . Value = _model . BAR009;
+            parameter[2] . Value = _model . BAR016;
+            parameter[3] . Value = _model . BAR019;
+            parameter[4] . Value = _model . BAR020;
+            parameter[5] . Value = _model . BAR024;
+            parameter[6] . Value = _model . BAR025;
+            parameter[7] . Value = _model . idx;
+            SQLString . Add ( strSql , parameter );
 
-            int row = SqlHelper . ExecuteNonQuery ( strSql . ToString ( ) ,parameter );
-            if ( row > 0 )
-                return true;
-            else
-                return false;
+
+            strSql = new StringBuilder ( );
+            strSql . Append ( "UPDATE JSKLHB SET " );
+            strSql . Append ( "LHB025=@LHB025," );
+            strSql . Append ( "LHB962=@LHB962" );
+            strSql . Append ( " WHERE LHB001=@LHB001 AND " );
+            strSql . Append ( "LHB003=@LHB003 AND " );
+            strSql . Append ( "LHB019=@LHB019" );
+            SqlParameter[] para = {
+                new SqlParameter("@LHB025",SqlDbType.VarChar,255),
+                new SqlParameter("@LHB962",SqlDbType.VarChar,60),
+                new SqlParameter("@LHB001",SqlDbType.VarChar,20),
+                new SqlParameter("@LHB003",SqlDbType.VarChar,20),
+                new SqlParameter("@LHB019",SqlDbType.VarChar,20)
+            };
+            para[0] . Value = _model . BAR025;
+            para[1] . Value = _model . BAR017;
+            para[2] . Value = _model . BAR011;
+            para[3] . Value = _model . BAR001;
+            para[4] . Value = _model . BAR007;
+            SQLString . Add ( strSql , para );
+
+
+            //strSql = new StringBuilder ( );
+            //strSql . AppendFormat ( "UPDATE TPADEH SET DEH003='{0}' FROM JSKLHB WHERE DEH001=LHB003 AND DEH002=LHB019 AND LHB001='{1}' AND LHB003='{2}' AND LHB019='{3}'" , _model . BAR025 , _model . BAR011 , _model . BAR001 , _model . BAR007 );
+            //SQLString . Add ( strSql , null );
+
+            return SqlHelper . ExecuteSqlTran ( SQLString );
         }
 
         /// <summary>

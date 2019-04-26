@@ -6,21 +6,25 @@ namespace barCode
     public partial class FormEdit :Form
     {
         string saoMiao=string.Empty;
-        public FormEdit (string orderNum,string remark ,string saoMiao,string ckNum,string rkNum ,DateTime? dt,string batchSa )
+        barCodeEntity . barCodeReportEntity _model = new barCodeEntity . barCodeReportEntity ( );
+
+        public FormEdit ( barCodeEntity . barCodeReportEntity _model )
         {
             InitializeComponent ( );
-            
+
             cmbSao . Items . Add ( "F" );
             cmbSao . Items . Add ( "T" );
-            textBox1 . Text = orderNum;
-            textBox4 . Text = rkNum;
-            textBox5 . Text = ckNum;
-            dtTime . Text = dt . ToString ( );
-            richBatch . Text = batchSa;
-            
-            this . saoMiao = saoMiao;
+            textBox1 . Text = _model . BAR009;
+            textBox4 . Text = _model . BAR019 . ToString ( );
+            textBox5 . Text = _model . BAR020 . ToString ( );
+            dtTime . Text = _model . BAR024 . ToString ( );
+            richBatch . Text = _model . BAR025;
 
-            richTextBox1 . Text = remark;
+            this . saoMiao = _model . BAR016;
+
+            richTextBox1 . Text = _model . BAR017;
+            this . _model . BAR011 = _model . BAR011;
+            this . _model = _model;
         }
         
         public int id;
@@ -29,7 +33,6 @@ namespace barCode
         {
             cmbSao . Text = saoMiao . Trim ( );
         }
-        
         private void button1_Click ( object sender ,EventArgs e )
         {
             int x = 0;
@@ -38,16 +41,26 @@ namespace barCode
                 errorProvider1 . SetError ( textBox5 ,"数量必须是整数" );
                 return;
             }
+            _model . BAR020 = x;
             x = 0;
             if ( !string . IsNullOrEmpty ( textBox4 . Text ) && int . TryParse ( textBox4 . Text ,out x ) == false )
             {
                 errorProvider1 . SetError ( textBox4 ,"数量必须是整数" );
                 return;
             }
-
+            _model . BAR019 = x;
             barCodeDao . Bll . barCodeReportBll _bll = new barCodeDao . Bll . barCodeReportBll ( );
 
-            bool result = _bll . Edit ( id ,richTextBox1 . Text ,textBox1 . Text ,cmbSao . Text ,textBox4 . Text ,textBox5 . Text ,dtTime . Text ,richBatch . Text );
+            _model . idx = id;
+            _model . BAR017 = richTextBox1 . Text;
+            _model . BAR009 = textBox1 . Text;
+            _model . BAR016 = cmbSao . Text;
+            if ( string . IsNullOrEmpty ( dtTime . Text ) )
+                _model . BAR024 = null;
+            else
+                _model . BAR024 = Convert . ToDateTime ( dtTime . Text );
+            _model . BAR025 = richBatch . Text;
+            bool result = _bll . Edit ( _model );
             if ( result == true )
             {
                 MessageBox . Show ( "编辑成功" );
@@ -56,7 +69,6 @@ namespace barCode
             else
                 MessageBox . Show ( "编辑失败,请重试" );
         }
-
         private void button2_Click ( object sender ,EventArgs e )
         {
             this . DialogResult = System . Windows . Forms . DialogResult . Cancel;

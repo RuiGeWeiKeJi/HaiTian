@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C096C712-3A3C-4D4E-92EE-C58969D447AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeSan</RootNamespace>
+    <AssemblyName>CodeSan</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Smobiler_128.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CodeSanBll">
+      <HintPath>..\CodeSanBll\bin\Debug\CodeSanBll.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeSanEntity">
+      <HintPath>..\CodeSanEntity\bin\Debug\CodeSanEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="Smobiler.Utility" />
+    <Reference Include="Smobiler.Core" />
+    <Reference Include="Smobiler.Core.Controls" />
+    <Reference Include="Smobiler.Plugins" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Utility\bin\Debug\Utility.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlForSmobiler\SmobilerUserControlDel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlForSmobiler\SmobilerUserControlDel.Designer.cs">
+      <DependentUpon>SmobilerUserControlDel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlForSmobiler\SmobilerUserControlList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlForSmobiler\SmobilerUserControlList.Designer.cs">
+      <DependentUpon>SmobilerUserControlList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlForSmobiler\SmobilerUserControlSto.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlForSmobiler\SmobilerUserControlSto.Designer.cs">
+      <DependentUpon>SmobilerUserControlSto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenerateQRcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenerateQRcode.Designer.cs">
+      <DependentUpon>frmGenerateQRcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelp.Designer.cs">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetting.Designer.cs">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormAbout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormAbout.Designer.cs">
+      <DependentUpon>SmobilerFormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormBaseBack.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormBaseBack.Designer.cs">
+      <DependentUpon>SmobilerFormBaseBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormCode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormCode.Designer.cs">
+      <DependentUpon>SmobilerFormCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormScan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormScan.Designer.cs">
+      <DependentUpon>SmobilerFormScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormSto.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormSto.Designer.cs">
+      <DependentUpon>SmobilerFormSto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormStoPro.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormStoPro.Designer.cs">
+      <DependentUpon>SmobilerFormStoPro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MobileGlobal.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Layer\SmobilerFormBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormBase.Designer.cs">
+      <DependentUpon>SmobilerFormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormCon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormCon.Designer.cs">
+      <DependentUpon>SmobilerFormCon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormMain.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Layer\SmobilerFormMain.Designer.cs">
+      <DependentUpon>SmobilerFormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\BaseColumn.cs" />
+    <Compile Include="Utils\TableToArr.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ControlForSmobiler\SmobilerUserControlDel.resx">
+      <DependentUpon>SmobilerUserControlDel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlForSmobiler\SmobilerUserControlList.resx">
+      <DependentUpon>SmobilerUserControlList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlForSmobiler\SmobilerUserControlSto.resx">
+      <DependentUpon>SmobilerUserControlSto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenerateQRcode.resx">
+      <DependentUpon>frmGenerateQRcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.resx">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetting.resx">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\SmobilerFormAbout.resx">
+      <DependentUpon>SmobilerFormAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\SmobilerFormBaseBack.resx">
+      <DependentUpon>SmobilerFormBaseBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\SmobilerFormCode.resx">
+      <DependentUpon>SmobilerFormCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\SmobilerFormScan.resx">
+      <DependentUpon>SmobilerFormScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\SmobilerFormSto.resx">
+      <DependentUpon>SmobilerFormSto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\SmobilerFormStoPro.resx">
+      <DependentUpon>SmobilerFormStoPro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\SmobilerFormBase.resx">
+      <DependentUpon>SmobilerFormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\SmobilerFormCon.resx">
+      <DependentUpon>SmobilerFormCon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\SmobilerFormMain.resx">
+      <DependentUpon>SmobilerFormMain.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Smobiler_128.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
